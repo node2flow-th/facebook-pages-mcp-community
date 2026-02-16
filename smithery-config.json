@@ -1,0 +1,14 @@
+{
+  "type": "object",
+  "properties": {
+    "FACEBOOK_PAGE_ACCESS_TOKEN": {
+      "type": "string",
+      "description": "Facebook Page Access Token (long-lived or never-expiring)"
+    },
+    "FACEBOOK_PAGE_ID": {
+      "type": "string",
+      "description": "Facebook Page ID (optional — auto-detected from token if not provided)"
+    }
+  },
+  "required": ["FACEBOOK_PAGE_ACCESS_TOKEN"]
+}
